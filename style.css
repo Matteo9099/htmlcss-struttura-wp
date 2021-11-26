@@ -13,21 +13,20 @@
 /* rules header-top */
 .header-top{
     width: 100%;
-    height: 180px;
-    background-color: purple;
+    height: 100px;
+    background-color: #e968ed;;
 }
 
 .layout-center{
     width: 100%;
-    height: 350px;
+    height: 250px;
     margin-top: 20px;
-    background-color: red;
+    background-color: #f0a72d;;
 }
 
 .box{
-    height: 400px;
     margin-top: 20px;
-    background-color: black;
+    background-color: blue;
 }
 
 .box::after{
@@ -39,22 +38,22 @@
 .box .sidebar-top{
     width: 100%;
     height: 50px;
-    background-color: yellowgreen;
+    background-color: #03a9f4;;
 }
 
 .box .sidebar{
     width: 25%;
-    height: 80%;
+    height: 300px;
     margin-top: 10px;
     float: left;
-    background-color: blue;
+    background-color: #03a9f4;;
 }
 
 .box .content{
-    background-color: red;
+    background-color: #03a9f4;;
     width: 45%;
     float: left;
-    height: 80%;
+    height: 300px;
     margin: 10px 2.5%;
 }
 
