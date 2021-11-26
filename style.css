@@ -24,14 +24,16 @@
     background-color: red;
 }
 
-.clearfix {
-    clear: both;
-}
-
 .box{
     height: 400px;
     margin-top: 20px;
     background-color: black;
+}
+
+.box::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .box .sidebar-top{
@@ -50,8 +52,15 @@
 
 .box .content{
     background-color: red;
-    width: 40%;
+    width: 45%;
     float: left;
     height: 80%;
-    margin: 10px 5%;
+    margin: 10px 2.5%;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background: purple;
+    margin-top: 10px;
 }
