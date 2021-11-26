@@ -1,13 +1,13 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 .container{
     margin: auto;  
     width: 80%;
     margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 /* rules header-top */
@@ -19,7 +19,39 @@
 
 .layout-center{
     width: 100%;
-    height: 400px;
+    height: 350px;
     margin-top: 20px;
     background-color: red;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.box{
+    height: 400px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+.box .sidebar-top{
+    width: 100%;
+    height: 50px;
+    background-color: yellowgreen;
+}
+
+.box .sidebar{
+    width: 25%;
+    height: 80%;
+    margin-top: 10px;
+    float: left;
+    background-color: blue;
+}
+
+.box .content{
+    background-color: red;
+    width: 40%;
+    float: left;
+    height: 80%;
+    margin: 10px 5%;
 }
