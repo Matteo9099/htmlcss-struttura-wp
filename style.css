@@ -1,0 +1,11 @@
+.container{
+    margin: auto;  
+    width: 80%;
+}
+
+/* rules header-top */
+.header-top{
+    width: 100%;
+    height: 180px;
+    background-color: purple;
+}
