@@ -9,7 +9,6 @@
 }
 /* header */
 .red{
-    width: 100%;
     height: 100px;
     background-color: red;
 }
@@ -17,7 +16,6 @@
 
 /* section */
 .green{
-    width: 100%;
     height: 250px;
     margin-top: 30px;
     background-color: green;
@@ -32,8 +30,7 @@
     background-color: blue;
 }
 
-.principale .blu-superiore{
-    width: 100%;
+.box .blu-superiore{
     height: 50px;
     background-color: rgb(129, 129, 230);
 }
